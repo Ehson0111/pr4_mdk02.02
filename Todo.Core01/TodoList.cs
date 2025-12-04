@@ -9,7 +9,7 @@ namespace Todo.Core01
     public class TodoList
     {
         private readonly List<TodoItem> items = new();
-        public IReadOnlyList<TodoItem> Items => items.AsReadOnly();
+        public IReadOnlyList<TodoItem> Items => items.AsReadOnly();//comment
 
         /// <summary>
         /// </summary>
